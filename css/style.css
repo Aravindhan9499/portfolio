@@ -43,8 +43,10 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+  /* -webkit-text-size-adjust: 100%; */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  overflow-x: hidden;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -2399,7 +2401,10 @@ ul.skills-list li::before {
   .progress-wrap.ftco-animate.skills-div {
     width: 100%;
     margin-left: 37%;
-  } 
+  }
+  .heading-section h1.big {
+    font-size: 15vw;
+  }
 }
 
 .ftco-section {
